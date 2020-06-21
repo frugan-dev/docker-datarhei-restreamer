@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+
+  restreamer:
+    container_name: ${RESTREAMER_NAME}
+    build:
+      context: .
+      args:
+        RESTREAMER_TAG: ${RESTREAMER_TAG}
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - default
