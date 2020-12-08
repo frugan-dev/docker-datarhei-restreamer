@@ -1,10 +1,5 @@
 ## Unreleased
 
-### Commits
-
-- Initial commit [`14a7ccb`](https://github.com/frugan-it/docker-datarhei-restreamer/commit/14a7ccb346062d1f6405d5c88c48658770c95127)
-- Removed nginx user/group creation [`956f44f`](https://github.com/frugan-it/docker-datarhei-restreamer/commit/956f44fe477461b8a80ed37752d5d3aa3489e811)
-
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
